@@ -14,7 +14,7 @@ import {
   Package,
   ChevronRight,
 } from 'lucide-react';
-import { useCart } from '../context/CartContext';
+import { useCart } from '../Context/CartContext';
 
 const LINKS = [
   { label: 'Home', icon: Home, path: '/' },

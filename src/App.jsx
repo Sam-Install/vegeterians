@@ -16,6 +16,7 @@ import ForgotPassword from './pages/ForgotPassword'
 import Cart from './pages/Cart'
 import { CartProvider } from './Context/CartContext'
 
+
 const App = () => {
   return (
     <CartProvider>
