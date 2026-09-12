@@ -1,6 +1,7 @@
 import React from 'react';
 import { Carrot, Phone, Mail } from 'lucide-react';
 import { FaFacebookF, FaInstagram, FaXTwitter } from 'react-icons/fa6';
+import { Link } from 'react-router-dom';
 
 const STORE_LINKS = [
   { label: 'Who We Are', href: '/about' },
@@ -57,12 +58,12 @@ const Footer = () => {
             <ul className="mt-3 space-y-2">
               {STORE_LINKS.map(({ label, href }) => (
                 <li key={label}>
-                  <a
+                  <Link to
                     href={href}
                     className="text-sm text-emerald-900/70 hover:text-emerald-700 transition-colors"
                   >
                     {label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
