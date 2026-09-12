@@ -59,7 +59,7 @@ const Footer = () => {
               {STORE_LINKS.map(({ label, href }) => (
                 <li key={label}>
                   <Link to
-                    href={href}
+                    ={href}
                     className="text-sm text-emerald-900/70 hover:text-emerald-700 transition-colors"
                   >
                     {label}
