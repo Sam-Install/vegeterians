@@ -21,14 +21,14 @@ const Footer = () => {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-6">
           {/* Brand */}
           <div>
-            <a href="/" className="inline-flex items-center gap-2">
+            <Link to="/" className="inline-flex items-center gap-2">
               <span className="w-9 h-9 rounded-full bg-emerald-700 flex items-center justify-center shrink-0">
                 <Carrot size={18} className="text-white" />
               </span>
               <span className="text-lg font-bold tracking-tight text-emerald-950">
                 Soko<span className="text-emerald-600">Fresh</span>
               </span>
-            </a>
+            </Link>
             <p className="mt-3 text-sm text-emerald-900/60 leading-relaxed max-w-xs">
               Farm-fresh groceries sourced across Kenya, delivered to your door
               the same day you order.
