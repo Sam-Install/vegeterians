@@ -14,7 +14,7 @@ import Signin from './pages/Signin'
 import Registration from './pages/Registration'
 import ForgotPassword from './pages/ForgotPassword'
 import Cart from './pages/Cart'
-import { CartProvider } from './context/CartContext'
+import { CartProvider } from './Context/CartContext'
 
 const App = () => {
   return (
