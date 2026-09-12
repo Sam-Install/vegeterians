@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useLocation, useNavigate, Link } from 'react-router-dom';
 import { ShoppingCart, ChevronRight, ArrowLeft, Minus, Plus, LogIn } from 'lucide-react';
-import { useCart } from '../context/CartContext';
+import { useCart } from '../Context/CartContext';
 
 const formatPrice = (value) => `KSh ${value.toLocaleString()}`;
 
