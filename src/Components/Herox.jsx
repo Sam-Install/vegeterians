@@ -79,7 +79,7 @@ const Herox = () => {
       <div className="relative z-10 flex h-full items-end sm:items-center">
         <div className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 pb-16 sm:pb-0">
           <div className="max-w-xl">
-            <span className="inline-flex items-center gap-2 rounded-full bg-white/10 backdrop-blur-sm px-3 py-1 text-xs sm:text-sm font-medium text-amber-300 ring-1 ring-white/20">
+            <span className="inline-flex items-center gap-2 text-xs sm:text-sm font-medium text-amber-300">
               <ShoppingBasket size={14} />
               {SLIDES[index].eyebrow}
             </span>
@@ -97,14 +97,14 @@ const Herox = () => {
             </p>
 
             <div className="mt-8 flex flex-wrap items-center gap-3 sm:gap-4">
-              <a
-                href="/contact"
+              
+               <a href="/contact"
                 className="rounded-full bg-emerald-600 hover:bg-emerald-500 px-6 py-3 text-sm sm:text-base font-semibold text-white transition-colors"
               >
                 ContactUs
               </a>
-              <a
-                href="/about"
+              
+              <a  href="/about"
                 className="rounded-full border border-white/30 hover:bg-white/10 px-6 py-3 text-sm sm:text-base font-semibold text-white transition-colors"
               >
                 AboutUs
