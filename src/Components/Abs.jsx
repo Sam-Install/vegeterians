@@ -40,7 +40,7 @@ const Abs = () => {
 
           {/* Text side */}
           <div className="max-w-xl">
-            <span className="inline-flex items-center rounded-full bg-emerald-50 px-3 py-1 text-xs sm:text-sm font-semibold text-emerald-700 ring-1 ring-emerald-100">
+            <span className="text-xs sm:text-sm font-semibold text-emerald-700">
               About SokoFresh
             </span>
 
@@ -55,8 +55,8 @@ const Abs = () => {
               fairer and better for you.
             </p>
 
-            <a
-              href="#learn-more"
+            
+             <a href="#learn-more"
               className="group mt-6 inline-flex items-center gap-2 text-sm sm:text-base font-semibold text-emerald-700 hover:text-emerald-800 transition-colors"
             >
               Learn more

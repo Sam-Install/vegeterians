@@ -36,7 +36,7 @@ const About = () => {
 
           {/* Text */}
           <div className="max-w-xl">
-            <span className="inline-flex items-center gap-1.5 rounded-full bg-emerald-50 px-3 py-1 text-xs sm:text-sm font-semibold text-emerald-700 ring-1 ring-emerald-100">
+            <span className="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-emerald-700">
               <MapPin size={13} />
               Ukunda, Kenya
             </span>
