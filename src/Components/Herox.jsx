@@ -3,6 +3,7 @@ import { ChevronLeft, ChevronRight, ShoppingBasket } from 'lucide-react';
 import h1 from '../assets/H1.jpg';
 import h2 from '../assets/H2.jpg';
 import h3 from '../assets/H3.jpg';
+import { Link } from 'react-router-dom';
 
 const SLIDES = [
   {
@@ -98,17 +99,17 @@ const Herox = () => {
 
             <div className="mt-8 flex flex-wrap items-center gap-3 sm:gap-4">
               
-               <a href="/contact"
+               <Link  to="/contact"
                 className="rounded-full bg-emerald-600 hover:bg-emerald-500 px-6 py-3 text-sm sm:text-base font-semibold text-white transition-colors"
               >
                 ContactUs
-              </a>
+              </Link>
               
-              <a  href="/about"
+              <Link to="/about"
                 className="rounded-full border border-white/30 hover:bg-white/10 px-6 py-3 text-sm sm:text-base font-semibold text-white transition-colors"
               >
                 AboutUs
-              </a>
+              </Link>
             </div>
           </div>
         </div>
