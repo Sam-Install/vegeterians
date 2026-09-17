@@ -98,17 +98,17 @@ const Herox = () => {
             </p>
 
             <div className="mt-8 flex flex-wrap items-center gap-3 sm:gap-4">
-              
+
                <Link  to="/contact"
                 className="rounded-full bg-emerald-600 hover:bg-emerald-500 px-6 py-3 text-sm sm:text-base font-semibold text-white transition-colors"
               >
-                ContactUs
+                Contact Us
               </Link>
-              
+
               <Link to="/about"
                 className="rounded-full border border-white/30 hover:bg-white/10 px-6 py-3 text-sm sm:text-base font-semibold text-white transition-colors"
               >
-                AboutUs
+                About Us
               </Link>
             </div>
           </div>

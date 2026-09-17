@@ -71,7 +71,7 @@ const Fruits = () => {
               <div className="p-3 sm:p-4 pt-3">
                 <button
                   type="button"
-                  className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-red-600 hover:bg-red-700 px-3 py-2.5 text-xs sm:text-sm font-semibold text-white transition-colors active:scale-95 group-hover:animate-bounce [animation-duration:0.8s]"
+                  className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-orange-400 hover:bg-orange-600 px-3 py-2.5 text-xs sm:text-sm font-semibold text-white transition-colors active:scale-95 group-hover:animate-bounce [animation-duration:0.8s]"
                 >
                   <ShoppingCart size={15} />
                   Add to cart
